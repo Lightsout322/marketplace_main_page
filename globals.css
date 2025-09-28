@@ -1,0 +1,51 @@
+@import '/components/header.css';
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+@media (min-width: 1201px) {
+    .btn-burger {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 930px;
+    }
+     .btn-burger{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .container{
+        max-width: 730px;
+    }
+       .btn-burger{
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+    .container{
+        max-width: 100%;
+    }
+    .btn-burger{
+        width: 30px;
+        height: 19px;
+        display: block;
+    }
+
+    .header-controls{
+        display: none;
+    }
+}

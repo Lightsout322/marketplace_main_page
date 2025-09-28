@@ -1,0 +1,28 @@
+.header{
+   padding-top: 30px;
+   padding-bottom: 24px;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-logo span{
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.logo{
+    min-width: 27px;
+    max-height: 27px;
+}
