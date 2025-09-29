@@ -1,6 +1,13 @@
-@import 'normalize.css';
-@import 'globals.css';
+
 
 @import '/components/header.css';
 @import '/components/btn.css';
+@import '/components/search.css';
 
+@import 'normalize.css';
+
+@import 'sidebar.css';
+@import 'adaptives.css';
+@import 'content.css';
+
+@import 'product.css';
